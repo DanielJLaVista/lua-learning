@@ -1,3 +1,4 @@
+-- 1 indexed
 print("What is your name Player?")
 
 local player = io.read()
@@ -74,3 +75,27 @@ elseif playersHp > 5 and playersHp < 10 then
 else
     print("not good")
 end
+
+--[[TABLES]]
+local monsters = {"Orc", "Skeleton", "Treant"}
+
+print(#monsters)
+for k, v in pairs(monsters) do
+    print(k .. ", " .. v)
+end
+
+local monsters2 = {
+    Orc = {
+        Name = "Orc",
+        HitPoints = 42,
+        Description = "I'm an Orc"
+    },
+    Skeleton = {
+        Name = "Skeleton",
+        HitPoints = 44,
+        Description = "Not quite dead"
+    }
+}
+
+print(monsters2["Orc"]["Name"])
+print(monsters2.Orc.HitPoints)
