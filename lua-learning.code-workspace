@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"Lua.color.mode": "SemanticEnhanced",
+		"Lua.completion.callSnippet": "Both"
+	}
 }
