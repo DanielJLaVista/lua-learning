@@ -6,6 +6,11 @@
 	],
 	"settings": {
 		"Lua.color.mode": "SemanticEnhanced",
-		"Lua.completion.callSnippet": "Both"
+		"Lua.completion.callSnippet": "Both",
+		"Lua.runtime.version": "LuaJIT",
+		"Lua.workspace.library": [
+			"${3rd}/love2d/library"
+		],
+		"Lua.workspace.checkThirdParty": false
 	}
 }
